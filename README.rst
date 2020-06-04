@@ -27,5 +27,4 @@ How to build PlatformIO based project
     > platformio run --target upload
 
 
-![Repetidor Wifi Esp32](https://raw.githubusercontent.com/jeancode/RepetidorWifiESP32/master/MiniItrem.png)
-
+![](https://raw.githubusercontent.com/jeancode/RepetidorWifiESP32/master/MiniItrem.png)
