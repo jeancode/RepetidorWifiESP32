@@ -12,27 +12,18 @@
 How to build PlatformIO based project
 =====================================
 
-1. `Install PlatformIO Core <http://docs.platformio.org/page/core.html>`_
-2. Download `development platform with examples <https://github.com/platformio/platform-espressif32/archive/develop.zip>`_
-3. Extract ZIP archive
-4. Run these commands:
+1. Instalar PlatformIO Core <http://docs.platformio.org/page/core.html>`_
+
 
 .. code-block:: bash
 
-    # Change directory to example
-    > cd platform-espressif32/examples/espidf-blink
 
-    # Build project
+    > cd RepetidorWifiESP32
+
+    # COMPILAR project
     > platformio run
 
-    # Upload firmware
+    # SUBIR firmware
     > platformio run --target upload
 
-    # Build specific environment
-    > platformio run -e esp32dev
 
-    # Upload firmware for the specific environment
-    > platformio run -e esp32dev --target upload
-
-    # Clean build files
-    > platformio run --target clean
